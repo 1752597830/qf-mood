@@ -12,15 +12,15 @@ import java.util.Random;
 
 public class TencentCosUtil {
     // 存储桶名称
-    private static final String bucketName = "qingfeng-1300831696";
+    private static final String bucketName = "***";
     //secretId 秘钥id
-    private static final String SecretId = "AKIDRhhRv86oFOGrBE0UhdIgndCUVEgrkMhl";
+    private static final String SecretId = "***";
     //SecretKey 秘钥
-    private static final String SecretKey = "oLaYEdlcCVXHkvpSnreAOL0OVLuCDxPa";
+    private static final String SecretKey = "***";
     // 腾讯云 自定义文件夹名称
     private static final String prefix = "cards/";
     // 访问域名
-    public static final String URL = "https://qingfeng-1300831696.cos.ap-nanjing.myqcloud.com/";
+    public static final String URL = "***";
     // 创建COS 凭证
     private static COSCredentials credentials = new BasicCOSCredentials(SecretId,SecretKey);
     // 配置 COS 区域 就购买时选择的区域 我这里是 广州（guangzhou）

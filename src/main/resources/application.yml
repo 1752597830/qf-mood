@@ -8,12 +8,12 @@ spring:
     prefix: classpath:/templates/
     suffix: .html
   mail:
-    host: smtp.qq.com
-    username: qf_mood@foxmail.com
-    password: dzhkhicpszfrecja
+    host: ***
+    username: ***
+    password: ***
     protocol: smtp
     default-encoding: utf-8
-    from: qf_mood@foxmail.com
+    from: ***
     port: 587
     properties:
       mail:
